@@ -1,0 +1,93 @@
+body {
+	font-family: "Rubik", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.2;
+	color: #fff;
+	background: #120513;
+	overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+	width: auto;
+}
+
+.title {
+	position: relative;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 100px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.configurator {
+	position: relative;
+	margin-bottom: -30px;
+}
+
+.series-title {
+	text-align: center;
+	padding: 25px 0;
+	margin-bottom: 10px;
+	background-size: contain;
+}
+
+.series-main {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  max-width: 100%;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.form-components {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+}
+
+.form-components .component {
+	width: 50%;
+	background: #010111;
+}
+
+.form-components .componentsec {
+    border-bottom: 1px dotted #FF056E;
+}
+
+.list_item > .seria {
+	padding: 0 10px;
+	font-size: 14px;
+    margin-top: 40px;
+}
+
+.list_item > .name {
+	padding: 0 10px;
+	margin: 10px 0 15px;
+	font-size: 24px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.list_item > .descp {
+	padding: 0 10px;
+	margin: 30px 0;
+	font-size: 14px;
+}
+
+.list_item .form-components .component,
+.list_item .form-components .componentsec {
+	position: relative;
+    width: 100%;
+}
